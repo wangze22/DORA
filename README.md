@@ -1,6 +1,7 @@
 ### Description
 This project contains the GAN face generation test code used in the paper, including two-stage on-chip training and image generation for FID evaluation.  
 Since the data in the paper was obtained using our ACIM hardware platform, this project only provides simulation code. 
+
 The simulator's computational dataflow is consistent with the hardware platform, offering a comprehensive reference and approximate computational results.
 
 ---
@@ -33,6 +34,13 @@ The simulator's computational dataflow is consistent with the hardware platform,
 
 - [`GAN_online_train/`](GAN_online_train)  
   Path containing the test scripts.
+
+---
+### System Requirements
+- **OS**: Windows 11 (tested), Linux/macOS (should work)
+- **Python**: 3.12 / 3.13 (tested), 3.8+ (recommended)
+- **PyTorch**: 1.10+ with CUDA support
+- **GPU**: NVIDIA GPU with CUDA (tested on RTX 4080 SUPER / RTX 5090)
 
 ---
 
