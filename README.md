@@ -52,9 +52,10 @@ The project includes test cases for two architectures:
 The test scripts for these two cases (can be run directly after environment setup) are:  
 
 - [`GAN_online_train/main_DORA.py`](GAN_online_train/main_DORA.py)  
-  On-chip training and image generation using the DORA architecture.  
+  On-chip training and image generation using the DORA architecture. Output files are saved in the [`GAN_online_train/GAN_online_learning_DORA`](GAN_online_train/GAN_online_learning_DORA) folder. 
+
 
 - [`GAN_online_train/main_SOTA_conventional_ACIM.py`](GAN_online_train/main_SOTA_conventional_ACIM.py)  
-  On-chip training and image generation using the conventional ACIM architecture.  
+  On-chip training and image generation using the conventional ACIM architecture. Output files are saved in the [`GAN_online_train/GAN_online_learning_SOTA`](GAN_online_train/GAN_online_learning_SOTA) folder. 
 
 Each script takes under a minute to run on an RTX 4080 SUPER.
