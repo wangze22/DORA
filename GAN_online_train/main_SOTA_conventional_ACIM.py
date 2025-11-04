@@ -10,7 +10,7 @@ from torch.utils.data import Dataset, DataLoader, Subset
 # NOTE:
 """
 This script is based on the code used to obtain the hardware measurement data 
-for 'Conventional Heterogeneous ACIM' shown in Figure 5e. For clarity and ease 
+for 'Conventional Heterogeneous ACIM' shown in Figure 4d. For clarity and ease 
 of review, the open-source version has been streamlined. 
 
 Since the actual computation requires our ACIM hardware computing platform, it cannot 

@@ -48,3 +48,5 @@ The test scripts for these two cases (can be run directly after environment setu
 
 - [`GAN_online_train/main_SOTA_conventional_ACIM.py`](GAN_online_train/main_SOTA_conventional_ACIM.py)  
   On-chip training and image generation using the conventional ACIM architecture.  
+
+Each script takes under a minute to run on an RTX 4080 SUPER.
